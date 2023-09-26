@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  }
+  
+  .FrontCardPos{
+    position: absolute;
+    z-index: 2;
+    top: 10vh;
+    left: 6vw;
+  }
+  
+  .BodyPos{
+    position: relative;
+    z-index: -1;
+  }
+  
+  .BackCardPos{
+    position: absolute;
+    z-index: 2;
+    bottom: 1vh;
+    left: 7vw;
+  }
+  
+  .Cent_er{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -65%);
+  }

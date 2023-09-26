@@ -1,0 +1,125 @@
+.frontCard {
+    /* background-image: url("../images/Property 1=Variant2.svg");
+    backdrop-filter: blur(475px);
+    background-color: rgba(0, 0, 0, 0.5); */
+    z-index: 1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 451px;
+  height: 267.585px;
+  
+    flex-shrink: 0;
+    position: relative;
+  
+    border-radius: 10px;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .frontCard::before {
+    content: "";
+    position: absolute;
+    /* top: 30px;
+    left: 33px; */
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/Ellipse 1.svg"),
+      url("../images/Ellipse 2.svg");
+    background-size: fit;
+    background-repeat: no-repeat;
+    background-position: left 33px top 30px, left 97px top 46px;
+    z-index: 1;
+  }
+  
+  .frontCard {
+    background-image: url("../images/Rectangle 27.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .BackCard{
+    z-index: 1;
+    width: 571px;
+  height: 371px;
+  flex-shrink: 0;
+  
+    background-image: url("../images/Group 6.svg");
+    background-size: cover;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .CardNo{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2925rem;
+  
+    width: 22.9375rem;
+  height: 1.6875rem;
+  flex-shrink: 0;
+  text-align: center;
+  
+  position: relative;
+  top: 60%;
+  
+  }
+  
+  .CardUserNam{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.15438rem;
+  
+    width: 9.6875rem;
+  height: 0.6875rem;
+  flex-shrink: 0;
+  }
+  
+  .Card-Date{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.20563rem;
+  
+    width: 3.1875rem;
+  height: 0.8125rem;
+  flex-shrink: 0;
+  }
+  
+  .Card_Position{
+    display: flex;
+      justify-content: space-between;
+    
+    position: relative;
+    top: 70%;
+    left:24px;
+   width:316px;
+  }
+  
+  .Cvv_Pos{
+    color: #FFF;
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.20563rem;
+  
+  width: 2.0625rem;
+  height: 0.79319rem;
+  flex-shrink: 0;
+  position: relative;
+  right: -71%;
+  }

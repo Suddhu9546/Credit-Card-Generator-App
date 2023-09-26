@@ -1,0 +1,141 @@
+.FormCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+  }
+  
+  .form-label {
+    display: block;
+    color: #404040;
+    font-family: Roboto;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.11625rem;
+  }
+  
+  .form-input {
+    border-radius: 0.375rem;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+  
+    width: 23.875rem;
+    height: 2.75rem;
+    flex-shrink: 0;
+  
+    border-radius: 6px;
+    border: 3px solid rgba(0, 0, 0, 0.13);
+    background: #ffffff00;
+  
+    /* text */
+  
+    color: black;
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.11719rem;
+  }
+  
+  .Flx {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Flx1 {
+    border-radius: 0.375rem;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+  
+    width: 4.875rem;
+    height: 2.75rem;
+    flex-shrink: 0;
+  
+    border-radius: 6px;
+    border: 3px solid rgba(0, 0, 0, 0.13);
+    background: #ffffff00;
+  
+    /* text */
+    color: black;
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.11719rem;
+  }
+  
+  .Flx2 {
+    width: 4.875rem;
+    height: 2.75rem;
+    flex-shrink: 0;
+    border-radius: 0.375rem;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+  
+    border-radius: 6px;
+    border: 3px solid rgba(0, 0, 0, 0.13);
+    background: #ffffff00;
+  
+    /* text */
+    color: black;
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.11719rem;
+  }
+  
+  .Flx3 {
+    width: 11.8125rem;
+    height: 2.75rem;
+    flex-shrink: 0;
+    border-radius: 0.375rem;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+  
+    border-radius: 6px;
+    border: 3px solid rgba(0, 0, 0, 0.13);
+    background: #ffffff00;
+  
+    /* text */
+    color: black;
+    font-family: Inter;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.11719rem;
+  }
+  
+  .Form-Button {
+    border-radius: 6px;
+    border: 1px solid #000;
+    background: #220930;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  
+    width: 392px;
+    height: 53px;
+    flex-shrink: 0;
+  
+    /* text */
+    color: #fff;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.01rem;
+    text-align: center;
+  }
+  
+  .error {
+    color: #f81212;
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
